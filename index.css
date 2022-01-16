@@ -1,0 +1,103 @@
+:root{
+    --maincolor:#F64B3C;
+}
+.first{
+    background: url(./backi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav a{
+    margin:0 30px;
+}
+nav{
+    position:fixed;
+    color:white;
+}
+nav a{
+    color:white!important;
+}
+.icon{
+    font-size: 3vw;
+}
+.first_data{
+    padding:2vw 2.5vw;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color:white;
+}
+.first_data h1{
+    font-size: 4.5vw;   
+}
+.first_data p{
+    font-size: 1.7vw;
+    margin:3vw 0;
+}
+.first_data a{
+    width:20vw;
+    text-align: center;
+    padding:1.5vw 4vw;
+    border-radius: 3vw;
+    border:none;
+    margin:0;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color:white;
+    background-color: var(--maincolor);
+}
+/* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+.Second{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:2vw;
+    background-image: url(./second.jpg);
+    background-size: cover;
+}
+.Second .card{
+    width:15vw;
+    background:none;
+}
+.Second_card{
+    width:80%;
+    margin:7vw 0;
+    border:2px solid black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Second_card .card img{
+    width:15vw;
+    height: 30vh;
+    border-radius: 50%;
+}
+.Second h1{
+    text-align: center;
+    color:var(--maincolor);
+}
+.Second p{
+    text-align: center;
+    color:var(--maincolor);
+}
+.Second_card .card h4{
+    text-align: center;
+    color:var(--maincolor);
+    
+}
+/* <!-- **************************************************************************** --> */
+.Third{
+    display:flex;
+}
+.Third_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--maincolor);
+    padding:5vw;
+}
+.Third_image img{
+    width:20vw;
+    background: none;
+
+}
